@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-color: #04234B;
+}
+.cabecalho{
+    background-color: #04234B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+}
+.lista_cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.link_lista{
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-left: 32px;
+    list-style: none;
+    color:rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+.cabecalho_img{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.link_cabecalho{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.grid{
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    max-height: 99vh;
+    display: grid;
+}
+.logo_colegio_login{
+    grid-row: 2/5;
+    grid-column: 2/4; 
+}
+.text_login{
+    grid-column: 5/9;
+    grid-row: 2/4;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 2em;
+    margin-left: -150px;
+   
+
+ }
+ .input_texto{
+    width: 40vw;
+    padding: 1em;
+ }
+ .text_login1{
+    text-align: left;
+    font-size: 2vw;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5em;
+}
+.botao_login{
+    grid-column: 5/9;
+    grid-row: 6;
+    align-items: center;
+    text-align: center;
+}
+.botao-login-link{
+    text-align: center;
+    align-items: center;
+    padding: 0.5em;
+    font-size: 1.3vw;
+    margin-left: -150px;
+    color: #04234B;  
+    width: 20vw;
+    
+}
